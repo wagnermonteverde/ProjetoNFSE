@@ -1,0 +1,2 @@
+[2013-05-27 08:49:23,138] main JDBCExceptionReporter WARN : SQL Error: 1062, SQLState: 23000
+[2013-05-27 08:49:23,139] main JDBCExceptionReporter ERROR: Duplicate entry '03057532900' for key 'cpf'

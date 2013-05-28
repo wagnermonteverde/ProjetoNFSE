@@ -1,0 +1,11 @@
+<nfse:ConsultarLoteRpsEnvio xmlns:nfse="http://www.m4rc310.com/nfse.xsd">
+  <nfse:Prestador>
+    <!--Optional:-->
+    <nfse:CpfCnpj>
+      <nfse:CpfCnpj>939393939399</nfse:CpfCnpj>
+    </nfse:CpfCnpj>
+    <!--Optional:-->
+    <nfse:InscricaoMunicipal>string</nfse:InscricaoMunicipal>
+  </nfse:Prestador>
+  <nfse:Protocolo>string</nfse:Protocolo>
+</nfse:ConsultarLoteRpsEnvio>

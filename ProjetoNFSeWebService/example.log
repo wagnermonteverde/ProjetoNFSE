@@ -1,0 +1,38 @@
+[2013-05-27 08:49:23,138] main JDBCExceptionReporter WARN : SQL Error: 1062, SQLState: 23000
+[2013-05-27 08:49:23,139] main JDBCExceptionReporter ERROR: Duplicate entry '03057532900' for key 'cpf'
+[2013-05-27 08:49:49,817] main JDBCExceptionReporter WARN : SQL Error: 1062, SQLState: 23000
+[2013-05-27 08:49:49,817] main JDBCExceptionReporter WARN : SQL Error: 1062, SQLState: 23000
+[2013-05-27 08:49:49,817] main JDBCExceptionReporter ERROR: Duplicate entry '03057532900' for key 'cpf'
+[2013-05-27 08:49:49,817] main JDBCExceptionReporter ERROR: Duplicate entry '03057532900' for key 'cpf'
+[2013-05-27 14:01:00,221] main JDBCExceptionReporter WARN : SQL Error: 1146, SQLState: 42S02
+[2013-05-27 14:01:00,221] main JDBCExceptionReporter WARN : SQL Error: 1146, SQLState: 42S02
+[2013-05-27 14:01:00,221] main JDBCExceptionReporter ERROR: Table 'nfse_corumbatai.municipio' doesn't exist
+[2013-05-27 14:01:00,221] main JDBCExceptionReporter ERROR: Table 'nfse_corumbatai.municipio' doesn't exist
+[2013-05-27 14:01:17,719] main JDBCExceptionReporter WARN : SQL Error: 1146, SQLState: 42S02
+[2013-05-27 14:01:17,719] main JDBCExceptionReporter WARN : SQL Error: 1146, SQLState: 42S02
+[2013-05-27 14:01:17,720] main JDBCExceptionReporter ERROR: Table 'nfse_corumbatai.municipio' doesn't exist
+[2013-05-27 14:01:17,720] main JDBCExceptionReporter ERROR: Table 'nfse_corumbatai.municipio' doesn't exist
+[2013-05-27 14:01:17,748] main JDBCExceptionReporter WARN : SQL Error: 1146, SQLState: 42S02
+[2013-05-27 14:01:17,748] main JDBCExceptionReporter WARN : SQL Error: 1146, SQLState: 42S02
+[2013-05-27 14:01:17,748] main JDBCExceptionReporter ERROR: Table 'nfse_corumbatai.municipio' doesn't exist
+[2013-05-27 14:01:17,748] main JDBCExceptionReporter ERROR: Table 'nfse_corumbatai.municipio' doesn't exist
+[2013-05-27 14:59:02,358] main JDBCExceptionReporter WARN : SQL Error: 1054, SQLState: 42S22
+[2013-05-27 14:59:02,358] main JDBCExceptionReporter WARN : SQL Error: 1054, SQLState: 42S22
+[2013-05-27 14:59:02,359] main JDBCExceptionReporter ERROR: Unknown column 'endereco2_.municipio_id' in 'field list'
+[2013-05-27 14:59:02,359] main JDBCExceptionReporter ERROR: Unknown column 'endereco2_.municipio_id' in 'field list'
+[2013-05-27 15:14:01,044] main JDBCExceptionReporter WARN : SQL Error: 1054, SQLState: 42S22
+[2013-05-27 15:14:01,044] main JDBCExceptionReporter WARN : SQL Error: 1054, SQLState: 42S22
+[2013-05-27 15:14:01,044] main JDBCExceptionReporter ERROR: Unknown column 'endereco2_.municipio_id' in 'field list'
+[2013-05-27 15:14:01,044] main JDBCExceptionReporter ERROR: Unknown column 'endereco2_.municipio_id' in 'field list'
+[2013-05-27 15:14:57,530] main JDBCExceptionReporter WARN : SQL Error: 1054, SQLState: 42S22
+[2013-05-27 15:14:57,530] main JDBCExceptionReporter WARN : SQL Error: 1054, SQLState: 42S22
+[2013-05-27 15:14:57,531] main JDBCExceptionReporter ERROR: Unknown column 'endereco2_.municipio_id' in 'field list'
+[2013-05-27 15:14:57,531] main JDBCExceptionReporter ERROR: Unknown column 'endereco2_.municipio_id' in 'field list'
+[2013-05-27 15:28:11,842] main JDBCExceptionReporter WARN : SQL Error: 1054, SQLState: 42S22
+[2013-05-27 15:28:11,842] main JDBCExceptionReporter WARN : SQL Error: 1054, SQLState: 42S22
+[2013-05-27 15:28:11,843] main JDBCExceptionReporter ERROR: Unknown column 'endereco2_.municipio_id' in 'field list'
+[2013-05-27 15:28:11,843] main JDBCExceptionReporter ERROR: Unknown column 'endereco2_.municipio_id' in 'field list'
+[2013-05-27 16:53:52,147] main JDBCExceptionReporter WARN : SQL Error: 1062, SQLState: 23000
+[2013-05-27 16:53:52,147] main JDBCExceptionReporter WARN : SQL Error: 1062, SQLState: 23000
+[2013-05-27 16:53:52,148] main JDBCExceptionReporter ERROR: Duplicate entry '03057532900' for key 'cpf'
+[2013-05-27 16:53:52,148] main JDBCExceptionReporter ERROR: Duplicate entry '03057532900' for key 'cpf'

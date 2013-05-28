@@ -1,0 +1,21 @@
+<xml-fragment>
+    <nfse:Identificacao xmlns:nfse="http://www.m4rc310.com/nfse.xsd">
+        <nfse:CpfCnpj>
+            <nfse:CpfCnpj>03057532900</nfse:CpfCnpj>
+        </nfse:CpfCnpj>
+    </nfse:Identificacao>
+    <nfse:RazaoSocial xmlns:nfse="http://www.m4rc310.com/nfse.xsd">Marcelo</nfse:RazaoSocial>
+    <nfse:Endereco xmlns:nfse="http://www.m4rc310.com/nfse.xsd">
+        <nfse:Endereco>Rua Tocantins</nfse:Endereco>
+        <nfse:Numero>775</nfse:Numero>
+        <nfse:Complemento>CASA</nfse:Complemento>
+        <nfse:Bairro>Novo centro</nfse:Bairro>
+        <nfse:CodigoMunicipio>0</nfse:CodigoMunicipio>
+        <nfse:Municipio>Corumbataí do Sul</nfse:Municipio>
+        <nfse:Cep>86970000</nfse:Cep>
+    </nfse:Endereco>
+    <nfse:Contato xmlns:nfse="http://www.m4rc310.com/nfse.xsd">
+        <nfse:Telefone>4499198063</nfse:Telefone>
+        <nfse:Email>marcelo.utfpr@me.com</nfse:Email>
+    </nfse:Contato>
+</xml-fragment>

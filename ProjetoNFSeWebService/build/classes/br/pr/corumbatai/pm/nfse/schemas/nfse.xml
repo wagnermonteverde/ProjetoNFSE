@@ -1,0 +1,691 @@
+<nfse:CompNfse xmlns:nfse="http://www.abrasf.org.br/nfse.xsd" xmlns:xd="http://www.w3.org/2000/09/xmldsig#">
+  <nfse:Nfse versao="token">
+    <nfse:InfNfse Id="string">
+      <nfse:Numero>200</nfse:Numero>
+      <nfse:CodigoVerificacao>string</nfse:CodigoVerificacao>
+      <nfse:DataEmissao>2008-09-28T22:49:45</nfse:DataEmissao>
+      <!--Optional:-->
+      <nfse:IdentificacaoRps>
+        <nfse:Numero>200</nfse:Numero>
+        <nfse:Serie>strin</nfse:Serie>
+        <nfse:Tipo>2</nfse:Tipo>
+      </nfse:IdentificacaoRps>
+      <!--Optional:-->
+      <nfse:DataEmissaoRps>2014-09-18</nfse:DataEmissaoRps>
+      <nfse:NaturezaOperacao>2</nfse:NaturezaOperacao>
+      <!--Optional:-->
+      <nfse:RegimeEspecialTributacao>2</nfse:RegimeEspecialTributacao>
+      <nfse:OptanteSimplesNacional>2</nfse:OptanteSimplesNacional>
+      <nfse:IncentivadorCultural>2</nfse:IncentivadorCultural>
+      <nfse:Competencia>2006-08-19T14:27:14-03:00</nfse:Competencia>
+      <!--Optional:-->
+      <nfse:NfseSubstituida>200</nfse:NfseSubstituida>
+      <!--Optional:-->
+      <nfse:OutrasInformacoes>string</nfse:OutrasInformacoes>
+      <nfse:Servico>
+        <nfse:Valores>
+          <nfse:ValorServicos>1000.00000000000</nfse:ValorServicos>
+          <!--Optional:-->
+          <nfse:ValorDeducoes>1000.00000000000</nfse:ValorDeducoes>
+          <!--Optional:-->
+          <nfse:ValorPis>1000.00000000000</nfse:ValorPis>
+          <!--Optional:-->
+          <nfse:ValorCofins>1000.00000000000</nfse:ValorCofins>
+          <!--Optional:-->
+          <nfse:ValorInss>1000.00000000000</nfse:ValorInss>
+          <!--Optional:-->
+          <nfse:ValorIr>1000.00000000000</nfse:ValorIr>
+          <!--Optional:-->
+          <nfse:ValorCsll>1000.00000000000</nfse:ValorCsll>
+          <nfse:IssRetido>2</nfse:IssRetido>
+          <!--Optional:-->
+          <nfse:ValorIss>1000.00000000000</nfse:ValorIss>
+          <!--Optional:-->
+          <nfse:ValorIssRetido>1000.00000000000</nfse:ValorIssRetido>
+          <!--Optional:-->
+          <nfse:OutrasRetencoes>1000.00000000000</nfse:OutrasRetencoes>
+          <!--Optional:-->
+          <nfse:BaseCalculo>1000.00000000000</nfse:BaseCalculo>
+          <!--Optional:-->
+          <nfse:Aliquota>1000.0000</nfse:Aliquota>
+          <!--Optional:-->
+          <nfse:ValorLiquidoNfse>1000.00000000000</nfse:ValorLiquidoNfse>
+          <!--Optional:-->
+          <nfse:DescontoIncondicionado>1000.00000000000</nfse:DescontoIncondicionado>
+          <!--Optional:-->
+          <nfse:DescontoCondicionado>1000.00000000000</nfse:DescontoCondicionado>
+        </nfse:Valores>
+        <nfse:ItemListaServico>strin</nfse:ItemListaServico>
+        <!--Optional:-->
+        <nfse:CodigoCnae>3</nfse:CodigoCnae>
+        <!--Optional:-->
+        <nfse:CodigoTributacaoMunicipio>string</nfse:CodigoTributacaoMunicipio>
+        <nfse:Discriminacao>string</nfse:Discriminacao>
+        <nfse:CodigoMunicipio>3</nfse:CodigoMunicipio>
+        <nfse:Municipio>string</nfse:Municipio>
+      </nfse:Servico>
+      <!--Optional:-->
+      <nfse:ValorCredito>1000.00000000000</nfse:ValorCredito>
+      <nfse:PrestadorServico>
+        <nfse:IdentificacaoPrestador>
+          <nfse:Cnpj>stringstringst</nfse:Cnpj>
+          <!--Optional:-->
+          <nfse:InscricaoMunicipal>string</nfse:InscricaoMunicipal>
+        </nfse:IdentificacaoPrestador>
+        <nfse:RazaoSocial>string</nfse:RazaoSocial>
+        <!--Optional:-->
+        <nfse:NomeFantasia>string</nfse:NomeFantasia>
+        <nfse:Endereco>
+          <!--Optional:-->
+          <nfse:Endereco>string</nfse:Endereco>
+          <!--Optional:-->
+          <nfse:Numero>string</nfse:Numero>
+          <!--Optional:-->
+          <nfse:Complemento>string</nfse:Complemento>
+          <!--Optional:-->
+          <nfse:Bairro>string</nfse:Bairro>
+          <!--Optional:-->
+          <nfse:CodigoMunicipio>3</nfse:CodigoMunicipio>
+          <!--Optional:-->
+          <nfse:Municipio>string</nfse:Municipio>
+          <!--Optional:-->
+          <nfse:Uf>st</nfse:Uf>
+          <!--Optional:-->
+          <nfse:Cep>3</nfse:Cep>
+        </nfse:Endereco>
+        <!--Optional:-->
+        <nfse:Contato>
+          <!--Optional:-->
+          <nfse:Telefone>string</nfse:Telefone>
+          <!--Optional:-->
+          <nfse:Email>string</nfse:Email>
+        </nfse:Contato>
+      </nfse:PrestadorServico>
+      <!--Optional:-->
+      <nfse:TomadorServico>
+        <!--Optional:-->
+        <nfse:IdentificacaoTomador>
+          <!--Optional:-->
+          <nfse:CpfCnpj>
+            <!--You have a CHOICE of the next 2 items at this level-->
+            <nfse:Cpf>stringstrin</nfse:Cpf>
+            <nfse:Cnpj>stringstringst</nfse:Cnpj>
+          </nfse:CpfCnpj>
+          <!--Optional:-->
+          <nfse:InscricaoMunicipal>string</nfse:InscricaoMunicipal>
+        </nfse:IdentificacaoTomador>
+        <!--Optional:-->
+        <nfse:RazaoSocial>string</nfse:RazaoSocial>
+        <!--Optional:-->
+        <nfse:Endereco>
+          <!--Optional:-->
+          <nfse:Endereco>string</nfse:Endereco>
+          <!--Optional:-->
+          <nfse:Numero>string</nfse:Numero>
+          <!--Optional:-->
+          <nfse:Complemento>string</nfse:Complemento>
+          <!--Optional:-->
+          <nfse:Bairro>string</nfse:Bairro>
+          <!--Optional:-->
+          <nfse:CodigoMunicipio>3</nfse:CodigoMunicipio>
+          <!--Optional:-->
+          <nfse:Municipio>string</nfse:Municipio>
+          <!--Optional:-->
+          <nfse:Uf>st</nfse:Uf>
+          <!--Optional:-->
+          <nfse:Cep>3</nfse:Cep>
+        </nfse:Endereco>
+        <!--Optional:-->
+        <nfse:Contato>
+          <!--Optional:-->
+          <nfse:Telefone>string</nfse:Telefone>
+          <!--Optional:-->
+          <nfse:Email>string</nfse:Email>
+        </nfse:Contato>
+      </nfse:TomadorServico>
+      <!--Optional:-->
+      <nfse:IntermediarioServico>
+        <!--Optional:-->
+        <nfse:CpfCnpj>
+          <!--You have a CHOICE of the next 2 items at this level-->
+          <nfse:Cpf>stringstrin</nfse:Cpf>
+          <nfse:Cnpj>stringstringst</nfse:Cnpj>
+        </nfse:CpfCnpj>
+        <!--Optional:-->
+        <nfse:InscricaoMunicipal>string</nfse:InscricaoMunicipal>
+      </nfse:IntermediarioServico>
+      <nfse:OrgaoGerador>
+        <nfse:CodigoMunicipio>3</nfse:CodigoMunicipio>
+        <nfse:Uf>st</nfse:Uf>
+      </nfse:OrgaoGerador>
+      <!--Optional:-->
+      <nfse:ConstrucaoCivil>
+        <nfse:CodigoObra>string</nfse:CodigoObra>
+        <nfse:Art>string</nfse:Art>
+      </nfse:ConstrucaoCivil>
+    </nfse:InfNfse>
+    <!--1 to 2 repetitions:-->
+    <xd:Signature Id="string">
+      <xd:SignedInfo Id="string">
+        <xd:CanonicalizationMethod Algorithm="http://www.any.com/circum/regemque">
+          nimborum
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+          fremunt
+        </xd:CanonicalizationMethod>
+        <xd:SignatureMethod Algorithm="http://www.my.com/profundum/sceptra">
+          et
+          <!--Optional:-->
+          <xd:HMACOutputLength>100</xd:HMACOutputLength>
+          turbine
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+          iovis
+        </xd:SignatureMethod>
+        <!--1 or more repetitions:-->
+        <xd:Reference Id="string" URI="http://www.company.edu/profundum/bella" Type="http://www.any.edu/ac/hoc">
+          <!--Optional:-->
+          <xd:Transforms>
+            <!--1 or more repetitions:-->
+            <xd:Transform Algorithm="http://www.test.org/caelumque/speluncis">
+              circum
+              <!--You have a CHOICE of the next 2 items at this level-->
+              <!--You may enter ANY elements at this point-->
+              <AnyElement/>
+              <xd:XPath>string</xd:XPath>
+              aris
+            </xd:Transform>
+          </xd:Transforms>
+          <xd:DigestMethod Algorithm="http://www.sample.org/arce/claustra">
+            circum
+            <!--You may enter ANY elements at this point-->
+            <AnyElement/>
+            imperio
+          </xd:DigestMethod>
+          <xd:DigestValue>Y2VydG8=</xd:DigestValue>
+        </xd:Reference>
+      </xd:SignedInfo>
+      <xd:SignatureValue Id="string">cXVpc3F1YW0=</xd:SignatureValue>
+      <!--Optional:-->
+      <xd:KeyInfo Id="string">
+        et
+        <!--You have a CHOICE of the next 8 items at this level-->
+        <xd:KeyName>string</xd:KeyName>
+        <xd:KeyValue>
+          ac
+          <!--You have a CHOICE of the next 3 items at this level-->
+          <xd:DSAKeyValue>
+            <xd:P>ZmV0YQ==</xd:P>
+            <xd:Q>YWM=</xd:Q>
+            <!--Optional:-->
+            <xd:G>c2Vk</xd:G>
+            <xd:Y>cGVjdG9yZQ==</xd:Y>
+            <!--Optional:-->
+            <xd:J>dGFsaWE=</xd:J>
+            <xd:Seed>cGVjdG9yZQ==</xd:Seed>
+            <xd:PgenCounter>YXVzdHJpcw==</xd:PgenCounter>
+          </xd:DSAKeyValue>
+          <xd:RSAKeyValue>
+            <xd:Modulus>YW5ub3M=</xd:Modulus>
+            <xd:Exponent>c2NpcmV0</xd:Exponent>
+          </xd:RSAKeyValue>
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+          certo
+        </xd:KeyValue>
+        <xd:RetrievalMethod URI="http://www.sample.com/bella/volutans" Type="http://www.your.com/magno/et">
+          <!--Optional:-->
+          <xd:Transforms>
+            <!--1 or more repetitions:-->
+            <xd:Transform Algorithm="http://www.test.gov/regemque/annos">
+              infixit
+              <!--You have a CHOICE of the next 2 items at this level-->
+              <!--You may enter ANY elements at this point-->
+              <AnyElement/>
+              <xd:XPath>string</xd:XPath>
+              ventos
+            </xd:Transform>
+          </xd:Transforms>
+        </xd:RetrievalMethod>
+        <xd:X509Data>
+          <!--You have a CHOICE of the next 6 items at this level-->
+          <xd:X509IssuerSerial>
+            <xd:X509IssuerName>string</xd:X509IssuerName>
+            <xd:X509SerialNumber>100</xd:X509SerialNumber>
+          </xd:X509IssuerSerial>
+          <xd:X509SKI>dGVuZW5z</xd:X509SKI>
+          <xd:X509SubjectName>string</xd:X509SubjectName>
+          <xd:X509Certificate>cmVnaW5h</xd:X509Certificate>
+          <xd:X509CRL>bW9udGlz</xd:X509CRL>
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+        </xd:X509Data>
+        <xd:PGPData>
+          <!--You have a CHOICE of the next 2 items at this level-->
+          <xd:PGPKeyID>cmFwaWR1bQ==</xd:PGPKeyID>
+          <!--Optional:-->
+          <xd:PGPKeyPacket>aGFiZW5hcw==</xd:PGPKeyPacket>
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+          <xd:PGPKeyPacket>aW5zdXBlcg==</xd:PGPKeyPacket>
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+        </xd:PGPData>
+        <xd:SPKIData>
+          <xd:SPKISexp>bW9sbGl0cXVl</xd:SPKISexp>
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+        </xd:SPKIData>
+        <xd:MgmtData>string</xd:MgmtData>
+        <!--You may enter ANY elements at this point-->
+        <AnyElement/>
+        cum
+      </xd:KeyInfo>
+      <!--Zero or more repetitions:-->
+      <xd:Object Id="string" MimeType="string" Encoding="http://www.sample.edu/soror/abdidit">
+        iunonis
+        <!--You may enter ANY elements at this point-->
+        <AnyElement/>
+        coniunx
+      </xd:Object>
+    </xd:Signature>
+  </nfse:Nfse>
+  <!--Optional:-->
+  <nfse:NfseCancelamento versao="token">
+    <nfse:Confirmacao Id="string">
+      <nfse:Pedido>
+        <nfse:InfPedidoCancelamento Id="string">
+          <nfse:IdentificacaoNfse>
+            <nfse:Numero>200</nfse:Numero>
+            <nfse:Cnpj>stringstringst</nfse:Cnpj>
+            <!--Optional:-->
+            <nfse:InscricaoMunicipal>string</nfse:InscricaoMunicipal>
+            <nfse:CodigoMunicipio>3</nfse:CodigoMunicipio>
+          </nfse:IdentificacaoNfse>
+          <nfse:CodigoCancelamento>stri</nfse:CodigoCancelamento>
+        </nfse:InfPedidoCancelamento>
+        <!--Optional:-->
+        <xd:Signature Id="string">
+          <xd:SignedInfo Id="string">
+            <xd:CanonicalizationMethod Algorithm="http://www.your.com/illum/frenat">
+              aris
+              <!--You may enter ANY elements at this point-->
+              <AnyElement/>
+              nimborum
+            </xd:CanonicalizationMethod>
+            <xd:SignatureMethod Algorithm="http://www.any.org/premere/montis">
+              insuper
+              <!--Optional:-->
+              <xd:HMACOutputLength>100</xd:HMACOutputLength>
+              molemque
+              <!--You may enter ANY elements at this point-->
+              <AnyElement/>
+              ferant
+            </xd:SignatureMethod>
+            <!--1 or more repetitions:-->
+            <xd:Reference Id="string" URI="http://www.sample.edu/circum/vasto" Type="http://www.test.com/aris/tempestatesque">
+              <!--Optional:-->
+              <xd:Transforms>
+                <!--1 or more repetitions:-->
+                <xd:Transform Algorithm="http://www.sample.com/incedo/premit">
+                  ac
+                  <!--You have a CHOICE of the next 2 items at this level-->
+                  <!--You may enter ANY elements at this point-->
+                  <AnyElement/>
+                  <xd:XPath>string</xd:XPath>
+                  iras
+                </xd:Transform>
+              </xd:Transforms>
+              <xd:DigestMethod Algorithm="http://www.company.com/et/austris">
+                dedit
+                <!--You may enter ANY elements at this point-->
+                <AnyElement/>
+                qui
+              </xd:DigestMethod>
+              <xd:DigestValue>cHJvZnVuZHVt</xd:DigestValue>
+            </xd:Reference>
+          </xd:SignedInfo>
+          <xd:SignatureValue Id="string">YXRyaXM=</xd:SignatureValue>
+          <!--Optional:-->
+          <xd:KeyInfo Id="string">
+            imposuit
+            <!--You have a CHOICE of the next 8 items at this level-->
+            <xd:KeyName>string</xd:KeyName>
+            <xd:KeyValue>
+              atris
+              <!--You have a CHOICE of the next 3 items at this level-->
+              <xd:DSAKeyValue>
+                <xd:P>bWFnbm8=</xd:P>
+                <xd:Q>YW5pbW9z</xd:Q>
+                <!--Optional:-->
+                <xd:G>aXJhcw==</xd:G>
+                <xd:Y>c29ub3Jhcw==</xd:Y>
+                <!--Optional:-->
+                <xd:J>dmVycmFudHF1ZQ==</xd:J>
+                <xd:Seed>cGF0cmlhbQ==</xd:Seed>
+                <xd:PgenCounter>bWV0dWVucw==</xd:PgenCounter>
+              </xd:DSAKeyValue>
+              <xd:RSAKeyValue>
+                <xd:Modulus>bW9udGlz</xd:Modulus>
+                <xd:Exponent>ZGFyZQ==</xd:Exponent>
+              </xd:RSAKeyValue>
+              <!--You may enter ANY elements at this point-->
+              <AnyElement/>
+              laxas
+            </xd:KeyValue>
+            <xd:RetrievalMethod URI="http://www.sample.com/sceptra/volutans" Type="http://www.corp.com/coniunx/vinclis">
+              <!--Optional:-->
+              <xd:Transforms>
+                <!--1 or more repetitions:-->
+                <xd:Transform Algorithm="http://www.company.org/turbine/antro">
+                  auras
+                  <!--You have a CHOICE of the next 2 items at this level-->
+                  <!--You may enter ANY elements at this point-->
+                  <AnyElement/>
+                  <xd:XPath>string</xd:XPath>
+                  sciret
+                </xd:Transform>
+              </xd:Transforms>
+            </xd:RetrievalMethod>
+            <xd:X509Data>
+              <!--You have a CHOICE of the next 6 items at this level-->
+              <xd:X509IssuerSerial>
+                <xd:X509IssuerName>string</xd:X509IssuerName>
+                <xd:X509SerialNumber>100</xd:X509SerialNumber>
+              </xd:X509IssuerSerial>
+              <xd:X509SKI>YWVxdW9yYQ==</xd:X509SKI>
+              <xd:X509SubjectName>string</xd:X509SubjectName>
+              <xd:X509Certificate>bHVjdGFudGlz</xd:X509Certificate>
+              <xd:X509CRL>YWVxdW9yYQ==</xd:X509CRL>
+              <!--You may enter ANY elements at this point-->
+              <AnyElement/>
+            </xd:X509Data>
+            <xd:PGPData>
+              <!--You have a CHOICE of the next 2 items at this level-->
+              <xd:PGPKeyID>aXBzYQ==</xd:PGPKeyID>
+              <!--Optional:-->
+              <xd:PGPKeyPacket>ZXQ=</xd:PGPKeyPacket>
+              <!--You may enter ANY elements at this point-->
+              <AnyElement/>
+              <xd:PGPKeyPacket>YXJpcw==</xd:PGPKeyPacket>
+              <!--You may enter ANY elements at this point-->
+              <AnyElement/>
+            </xd:PGPData>
+            <xd:SPKIData>
+              <xd:SPKISexp>aW5jZWRv</xd:SPKISexp>
+              <!--You may enter ANY elements at this point-->
+              <AnyElement/>
+            </xd:SPKIData>
+            <xd:MgmtData>string</xd:MgmtData>
+            <!--You may enter ANY elements at this point-->
+            <AnyElement/>
+            imperio
+          </xd:KeyInfo>
+          <!--Zero or more repetitions:-->
+          <xd:Object Id="string" MimeType="string" Encoding="http://www.company.gov/ego/ni">
+            tempestatesque
+            <!--You may enter ANY elements at this point-->
+            <AnyElement/>
+            circum
+          </xd:Object>
+        </xd:Signature>
+      </nfse:Pedido>
+      <nfse:DataHora>2009-10-26T01:22:37-02:00</nfse:DataHora>
+    </nfse:Confirmacao>
+    <xd:Signature Id="string">
+      <xd:SignedInfo Id="string">
+        <xd:CanonicalizationMethod Algorithm="http://www.my.com/temperat/rapidum">
+          magno
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+          nimborum
+        </xd:CanonicalizationMethod>
+        <xd:SignatureMethod Algorithm="http://www.company.com/iunonis/aeoliam">
+          premere
+          <!--Optional:-->
+          <xd:HMACOutputLength>100</xd:HMACOutputLength>
+          hic
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+          iovisque
+        </xd:SignatureMethod>
+        <!--1 or more repetitions:-->
+        <xd:Reference Id="string" URI="http://www.test.org/carcere/imposuit" Type="http://www.company.gov/maria/supplex">
+          <!--Optional:-->
+          <xd:Transforms>
+            <!--1 or more repetitions:-->
+            <xd:Transform Algorithm="http://www.my.org/numen/volutans">
+              per
+              <!--You have a CHOICE of the next 2 items at this level-->
+              <!--You may enter ANY elements at this point-->
+              <AnyElement/>
+              <xd:XPath>string</xd:XPath>
+              maria
+            </xd:Transform>
+          </xd:Transforms>
+          <xd:DigestMethod Algorithm="http://www.my.org/tempestatesque/sciret">
+            ego
+            <!--You may enter ANY elements at this point-->
+            <AnyElement/>
+            rapidi
+          </xd:DigestMethod>
+          <xd:DigestValue>aWFjdWxhdGE=</xd:DigestValue>
+        </xd:Reference>
+      </xd:SignedInfo>
+      <xd:SignatureValue Id="string">bW9udGlz</xd:SignatureValue>
+      <!--Optional:-->
+      <xd:KeyInfo Id="string">
+        omnipotens
+        <!--You have a CHOICE of the next 8 items at this level-->
+        <xd:KeyName>string</xd:KeyName>
+        <xd:KeyValue>
+          et
+          <!--You have a CHOICE of the next 3 items at this level-->
+          <xd:DSAKeyValue>
+            <xd:P>cHJlbWVyZQ==</xd:P>
+            <xd:Q>cHJlbWl0</xd:Q>
+            <!--Optional:-->
+            <xd:G>dGFsaWE=</xd:G>
+            <xd:Y>bnVtZW4=</xd:Y>
+            <!--Optional:-->
+            <xd:J>dGVycmFz</xd:J>
+            <xd:Seed>dmFzdG8=</xd:Seed>
+            <xd:PgenCounter>ZXQ=</xd:PgenCounter>
+          </xd:DSAKeyValue>
+          <xd:RSAKeyValue>
+            <xd:Modulus>cHJvZnVuZHVt</xd:Modulus>
+            <xd:Exponent>ZGFyZQ==</xd:Exponent>
+          </xd:RSAKeyValue>
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+          premit
+        </xd:KeyValue>
+        <xd:RetrievalMethod URI="http://www.any.org/arce/dea" Type="http://www.corp.org/bella/tempestatesque">
+          <!--Optional:-->
+          <xd:Transforms>
+            <!--1 or more repetitions:-->
+            <xd:Transform Algorithm="http://www.your.com/imposuit/e">
+              ignem
+              <!--You have a CHOICE of the next 2 items at this level-->
+              <!--You may enter ANY elements at this point-->
+              <AnyElement/>
+              <xd:XPath>string</xd:XPath>
+              tenens
+            </xd:Transform>
+          </xd:Transforms>
+        </xd:RetrievalMethod>
+        <xd:X509Data>
+          <!--You have a CHOICE of the next 6 items at this level-->
+          <xd:X509IssuerSerial>
+            <xd:X509IssuerName>string</xd:X509IssuerName>
+            <xd:X509SerialNumber>100</xd:X509SerialNumber>
+          </xd:X509IssuerSerial>
+          <xd:X509SKI>ZXQ=</xd:X509SKI>
+          <xd:X509SubjectName>string</xd:X509SubjectName>
+          <xd:X509Certificate>dmluY2xpcw==</xd:X509Certificate>
+          <xd:X509CRL>bXVybXVyZQ==</xd:X509CRL>
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+        </xd:X509Data>
+        <xd:PGPData>
+          <!--You have a CHOICE of the next 2 items at this level-->
+          <xd:PGPKeyID>YWVvbHVz</xd:PGPKeyID>
+          <!--Optional:-->
+          <xd:PGPKeyPacket>cHJlbWVyZQ==</xd:PGPKeyPacket>
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+          <xd:PGPKeyPacket>c29ub3Jhcw==</xd:PGPKeyPacket>
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+        </xd:PGPData>
+        <xd:SPKIData>
+          <xd:SPKISexp>cmFwaWRp</xd:SPKISexp>
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+        </xd:SPKIData>
+        <xd:MgmtData>string</xd:MgmtData>
+        <!--You may enter ANY elements at this point-->
+        <AnyElement/>
+        soror
+      </xd:KeyInfo>
+      <!--Zero or more repetitions:-->
+      <xd:Object Id="string" MimeType="string" Encoding="http://www.test.com/premere/transfixo">
+        insuper
+        <!--You may enter ANY elements at this point-->
+        <AnyElement/>
+        ego
+      </xd:Object>
+    </xd:Signature>
+  </nfse:NfseCancelamento>
+  <!--Optional:-->
+  <nfse:NfseSubstituicao versao="token">
+    <nfse:SubstituicaoNfse Id="string">
+      <nfse:NfseSubstituidora>200</nfse:NfseSubstituidora>
+    </nfse:SubstituicaoNfse>
+    <!--1 to 2 repetitions:-->
+    <xd:Signature Id="string">
+      <xd:SignedInfo Id="string">
+        <xd:CanonicalizationMethod Algorithm="http://www.corp.gov/rates/arce">
+          iovis
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+          austris
+        </xd:CanonicalizationMethod>
+        <xd:SignatureMethod Algorithm="http://www.my.org/sonoras/ni">
+          rapidum
+          <!--Optional:-->
+          <xd:HMACOutputLength>100</xd:HMACOutputLength>
+          secum
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+          auras
+        </xd:SignatureMethod>
+        <!--1 or more repetitions:-->
+        <xd:Reference Id="string" URI="http://www.test.org/magno/flammato" Type="http://www.company.com/et/aeoliam">
+          <!--Optional:-->
+          <xd:Transforms>
+            <!--1 or more repetitions:-->
+            <xd:Transform Algorithm="http://www.company.edu/rex/profundum">
+              magno
+              <!--You have a CHOICE of the next 2 items at this level-->
+              <!--You may enter ANY elements at this point-->
+              <AnyElement/>
+              <xd:XPath>string</xd:XPath>
+              premit
+            </xd:Transform>
+          </xd:Transforms>
+          <xd:DigestMethod Algorithm="http://www.sample.org/dare/luctantis">
+            terras
+            <!--You may enter ANY elements at this point-->
+            <AnyElement/>
+            nubibus
+          </xd:DigestMethod>
+          <xd:DigestValue>YWx0b3M=</xd:DigestValue>
+        </xd:Reference>
+      </xd:SignedInfo>
+      <xd:SignatureValue Id="string">ZXQ=</xd:SignatureValue>
+      <!--Optional:-->
+      <xd:KeyInfo Id="string">
+        sonoras
+        <!--You have a CHOICE of the next 8 items at this level-->
+        <xd:KeyName>string</xd:KeyName>
+        <xd:KeyValue>
+          annos
+          <!--You have a CHOICE of the next 3 items at this level-->
+          <xd:DSAKeyValue>
+            <xd:P>dG90</xd:P>
+            <xd:Q>aWduZW0=</xd:Q>
+            <!--Optional:-->
+            <xd:G>Z2VudGU=</xd:G>
+            <xd:Y>aW92aXNxdWU=</xd:Y>
+            <!--Optional:-->
+            <xd:J>c3VwcGxleA==</xd:J>
+            <xd:Seed>bW9sZW1xdWU=</xd:Seed>
+            <xd:PgenCounter>cXVpc3F1YW0=</xd:PgenCounter>
+          </xd:DSAKeyValue>
+          <xd:RSAKeyValue>
+            <xd:Modulus>bW9udGlz</xd:Modulus>
+            <xd:Exponent>aXBzYQ==</xd:Exponent>
+          </xd:RSAKeyValue>
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+          profundum
+        </xd:KeyValue>
+        <xd:RetrievalMethod URI="http://www.test.com/omnipotens/incedo" Type="http://www.corp.org/sciret/et">
+          <!--Optional:-->
+          <xd:Transforms>
+            <!--1 or more repetitions:-->
+            <xd:Transform Algorithm="http://www.sample.org/dea/transfixo">
+              hic
+              <!--You have a CHOICE of the next 2 items at this level-->
+              <!--You may enter ANY elements at this point-->
+              <AnyElement/>
+              <xd:XPath>string</xd:XPath>
+              claustra
+            </xd:Transform>
+          </xd:Transforms>
+        </xd:RetrievalMethod>
+        <xd:X509Data>
+          <!--You have a CHOICE of the next 6 items at this level-->
+          <xd:X509IssuerSerial>
+            <xd:X509IssuerName>string</xd:X509IssuerName>
+            <xd:X509SerialNumber>100</xd:X509SerialNumber>
+          </xd:X509IssuerSerial>
+          <xd:X509SKI>aW1wb3N1aXQ=</xd:X509SKI>
+          <xd:X509SubjectName>string</xd:X509SubjectName>
+          <xd:X509Certificate>dW5h</xd:X509Certificate>
+          <xd:X509CRL>aXVub25pcw==</xd:X509CRL>
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+        </xd:X509Data>
+        <xd:PGPData>
+          <!--You have a CHOICE of the next 2 items at this level-->
+          <xd:PGPKeyID>Y29yZGU=</xd:PGPKeyID>
+          <!--Optional:-->
+          <xd:PGPKeyPacket>c2NlcHRyYQ==</xd:PGPKeyPacket>
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+          <xd:PGPKeyPacket>ZXQ=</xd:PGPKeyPacket>
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+        </xd:PGPData>
+        <xd:SPKIData>
+          <xd:SPKISexp>c2NpcmV0</xd:SPKISexp>
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+        </xd:SPKIData>
+        <xd:MgmtData>string</xd:MgmtData>
+        <!--You may enter ANY elements at this point-->
+        <AnyElement/>
+        quae
+      </xd:KeyInfo>
+      <!--Zero or more repetitions:-->
+      <xd:Object Id="string" MimeType="string" Encoding="http://www.my.com/regina/sceptra">
+        sceptra
+        <!--You may enter ANY elements at this point-->
+        <AnyElement/>
+        volutans
+      </xd:Object>
+    </xd:Signature>
+  </nfse:NfseSubstituicao>
+</nfse:CompNfse>
