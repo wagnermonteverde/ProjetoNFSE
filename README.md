@@ -1,0 +1,105 @@
+Sistema Emissor NFS-e
+
+
+UTFPR -CÂMPUS CAMPO MOURÃO
+
+Marcelo Lopes da Silva
+Acadêmico da Universidade Tecnológica Federal do Paraná. Atuando como Programador, responsável pela coleta de requisitos e implantação do “web service“ de controle e responsável pela prototipação da aplicação proposta. Estabelecer normas e critérios para controle de integração de sistemas internos e externos ao web service.
+
+Wagner Aparecido Monteverde
+Acadêmico da Universidade Tecnológica Federal do Paraná. Atuando como Programador, responsável por adaptar a aplicação à legislação municipal e nacional, responsável pelo projeto de gerenciamento web e de emissão de documentos. Documentação, wiki e controle de versão.
+
+Reinaldo Themistocles
+Acadêmico da Universidade Tecnológica Federal do Paraná. Atuando como Programador, revisor de código, apoio técnico na elaboração da documentação e wiki, correção de bugs e possíveis erros de gramatica. 
+
+
+
+“Sistema Emissor NFS-e“, Trata-se de uma arquitetura conhecida como Web Services (WS) e é utilizada nas principais estruturas do gênero, como por exemplo no projeto NF-e da Receita Federal. Sua principal característica é a possibilidade de conectar e interagir com diversos sistemas comerciais. Assim, um sistema de uma empresa qualquer pode, de forma relativamente simples, acessar as funcionalidades do WS. Cabe ao WS, além desta característica de comunicação, definir parâmetros, aplicar regras de negócio e detalhes da legislação municipal para a validação, tributação e geração das notas fiscais de serviço. Além do WS, está no projeto a criação de uma página web com a qual um cliente pode consumir (consultar, gerar e cancelar notas fiscais de serviço) as funcionalidades do web service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
