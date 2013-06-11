@@ -82,7 +82,13 @@ public class HibernateUtil {
             String db = conf.getProperty("hibernate.connection.database");
 
             Class.forName("com.mysql.jdbc.Driver");
-            Connection conn = DriverManager.getConnection(url, user, pass);
+            Connection conn = null;
+            try {
+                conn = DriverManager.getConnection(url, user, pass);
+            } catch (Exception e) {
+                conn = DriverManager.getConnection(url.replace(db, ""));
+            }
+            
             Statement s = conn.createStatement();
             s.executeUpdate(MessageFormat.format("DROP DATABASE IF EXISTS {0}", db));
             s.executeUpdate(MessageFormat.format("CREATE DATABASE {0}", db));
